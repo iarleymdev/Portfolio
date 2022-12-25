@@ -12,38 +12,64 @@
    </head>
    <body>
       <script src="./script.js"></script>
-    <header>
-        <nav class="nav-bar">
+      <header>
+         <nav class="nav-bar">
             <div class="logo">
-                <h1>Logo</h1>
+               <h1>Logo</h1>
             </div>
             <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
-                </ul>
+               <ul>
+                  <li class="nav-item">
+                     <a href="projetos.html" class="nav-link">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="rede" class="nav-link">Redes Sociais</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="contato.html" class="nav-link">Contato</a>
+                  </li>
+               </ul>
             </div>
             <div class="login-button">
-                <button><a href="#">Entrar</a></button>
+               <button><a href="#">Entrar</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+               <input type="checkbox" onclick="menuShow()" id="checkbox-menu" />
+
+               <label for="checkbox-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </label>
             </div>
 
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="assets/menu/menu_white_36dp.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
+            <!-- <div class="mobile-menu-icon">
+               <button onclick="menuShow()">
+                  <img
+                     class="icon"
+                     src="assets/menu/menu_white_36dp.svg"
+                     alt="" />
+               </button>
+            </div> -->
+         </nav>
+         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link"> Início </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link"> Projetos </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link"> Sobre</a>
+               </li>
             </ul>
 
             <div class="login-button">
-                <button><a href="#">Entrar</a></button>
+               <button><a href="#">Entrar</a></button>
             </div>
-        </div>
-    </header>
+         </div>
+      </header>
       <!-- animação de apresentação -->
       <div class="container">
          <span class="first-text">Olá,</span><br />
