@@ -142,6 +142,10 @@ label span:nth-child(3){
     display: none;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;
